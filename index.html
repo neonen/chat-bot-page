@@ -27,7 +27,7 @@
     paramChat = localStorage.getItem('chatbot-info-student');
     paramChatConcat = paramChat;
     let cronchatToken = '5224675044:AAHAAQHv_aKR-FFsktN10-mzJiWWp6x0tMU';
-    let hostURL = 'https://cronchatfurb.cronapp.io/get-chat?token=';
+    let hostURL = 'https://app-11-47-49512.ide.cronapp.io//get-chat?token=';
     let chatbotURL = `${hostURL}${cronchatToken}`;
     let scriptHTML = document.createElement("script");
     scriptHTML.src = chatbotURL;
@@ -43,8 +43,7 @@
     function clickBtnChat(){
         var btnConversationId = 'chatBtn_' + localStorage.getItem('conversationidbot');
         document.getElementById(btnConversationId).click();
-}
-	document.querySelector('.k-input').setAttribute("autocomplete","off");
+    }
 </script>
     </body>
 </html>
