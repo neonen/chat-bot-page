@@ -12,7 +12,7 @@
 </head>
 <body>
 <script type="text/javascript">
-	document.querySelector('.k-input').setAttribute("autocomplete","off");
+	
     var url_string = window.location.href;
     var url = new URL(url_string);
     var notRa = 'semRa';
@@ -44,6 +44,7 @@
         var btnConversationId = 'chatBtn_' + localStorage.getItem('conversationidbot');
         document.getElementById(btnConversationId).click();
 }
+	document.querySelector('.k-input').setAttribute("autocomplete","off");
 </script>
     </body>
 </html>
